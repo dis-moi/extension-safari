@@ -9,8 +9,11 @@
     "128": "img/logo/128x128.png"
   },
   "background": {
-    "page": "background.html",
-    "persistent": false,
+    "scripts": [
+      "/js/browser-polyfill.js",
+      "js/background.bundle.js"
+    ],
+    "persistent": false
   },
   "content_scripts": [
     {

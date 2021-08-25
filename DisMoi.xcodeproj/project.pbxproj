@@ -7,84 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9128880526D69A8E00D64970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9128880426D69A8E00D64970 /* AppDelegate.swift */; };
-		9128880726D69A8E00D64970 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9128880626D69A8E00D64970 /* SceneDelegate.swift */; };
-		9128880A26D69A8E00D64970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9128880826D69A8E00D64970 /* LaunchScreen.storyboard */; };
-		9128880D26D69A8E00D64970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9128880B26D69A8E00D64970 /* Main.storyboard */; };
-		9128881626D69A8E00D64970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9128881526D69A8E00D64970 /* AppDelegate.swift */; };
-		9128881926D69A8E00D64970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9128881726D69A8E00D64970 /* Main.storyboard */; };
-		9128882126D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9128882026D69A8E00D64970 /* DisMoi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9128882B26D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9128882A26D69A8E00D64970 /* DisMoi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9128883026D69A8E00D64970 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 912887F426D69A8D00D64970 /* Main.html */; };
-		9128883126D69A8E00D64970 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 912887F426D69A8D00D64970 /* Main.html */; };
-		9128883226D69A8E00D64970 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 912887F626D69A8D00D64970 /* Icon.png */; };
-		9128883326D69A8E00D64970 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 912887F626D69A8D00D64970 /* Icon.png */; };
-		9128883426D69A8E00D64970 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 912887F726D69A8D00D64970 /* Style.css */; };
-		9128883526D69A8E00D64970 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 912887F726D69A8D00D64970 /* Style.css */; };
-		9128883626D69A8E00D64970 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 912887F826D69A8D00D64970 /* Script.js */; };
-		9128883726D69A8E00D64970 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 912887F826D69A8D00D64970 /* Script.js */; };
-		9128883826D69A8E00D64970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887F926D69A8D00D64970 /* ViewController.swift */; };
-		9128883926D69A8E00D64970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887F926D69A8D00D64970 /* ViewController.swift */; };
-		9128883A26D69A8E00D64970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912887FA26D69A8E00D64970 /* Assets.xcassets */; };
-		9128883B26D69A8E00D64970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912887FA26D69A8E00D64970 /* Assets.xcassets */; };
-		9128883C26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */; };
-		9128883D26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */; };
-		9128885826D69A8E00D64970 /* video in Resources */ = {isa = PBXBuildFile; fileRef = 9128884F26D69A8E00D64970 /* video */; };
-		9128885926D69A8E00D64970 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9128885026D69A8E00D64970 /* favicon.ico */; };
-		9128885A26D69A8E00D64970 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 9128885126D69A8E00D64970 /* js */; };
-		9128885B26D69A8E00D64970 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9128885226D69A8E00D64970 /* img */; };
-		9128885C26D69A8E00D64970 /* site.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 9128885326D69A8E00D64970 /* site.webmanifest */; };
-		9128885D26D69A8E00D64970 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9128885426D69A8E00D64970 /* manifest.json */; };
-		9128885E26D69A8E00D64970 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 9128885526D69A8E00D64970 /* background.html */; };
-		9128885F26D69A8E00D64970 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9128885626D69A8E00D64970 /* fonts */; };
-		9128886026D69A8E00D64970 /* browserconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9128885726D69A8E00D64970 /* browserconfig.xml */; };
-		9128886126D69A8E00D64970 /* video in Resources */ = {isa = PBXBuildFile; fileRef = 9128884F26D69A8E00D64970 /* video */; };
-		9128886226D69A8E00D64970 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9128885026D69A8E00D64970 /* favicon.ico */; };
-		9128886326D69A8E00D64970 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 9128885126D69A8E00D64970 /* js */; };
-		9128886426D69A8E00D64970 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9128885226D69A8E00D64970 /* img */; };
-		9128886526D69A8E00D64970 /* site.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 9128885326D69A8E00D64970 /* site.webmanifest */; };
-		9128886626D69A8E00D64970 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9128885426D69A8E00D64970 /* manifest.json */; };
-		9128886726D69A8E00D64970 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 9128885526D69A8E00D64970 /* background.html */; };
-		9128886826D69A8E00D64970 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9128885626D69A8E00D64970 /* fonts */; };
-		9128886926D69A8E00D64970 /* browserconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9128885726D69A8E00D64970 /* browserconfig.xml */; };
+		9116D41C26D69F7400451604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116D41B26D69F7400451604 /* AppDelegate.swift */; };
+		9116D41E26D69F7400451604 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116D41D26D69F7400451604 /* SceneDelegate.swift */; };
+		9116D42126D69F7400451604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9116D41F26D69F7400451604 /* LaunchScreen.storyboard */; };
+		9116D42426D69F7400451604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9116D42226D69F7400451604 /* Main.storyboard */; };
+		9116D42D26D69F7400451604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116D42C26D69F7400451604 /* AppDelegate.swift */; };
+		9116D43026D69F7400451604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9116D42E26D69F7400451604 /* Main.storyboard */; };
+		9116D43826D69F7400451604 /* DisMoi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9116D43726D69F7400451604 /* DisMoi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9116D44226D69F7400451604 /* DisMoi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9116D44126D69F7400451604 /* DisMoi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9116D44726D69F7400451604 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40B26D69F7300451604 /* Main.html */; };
+		9116D44826D69F7400451604 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40B26D69F7300451604 /* Main.html */; };
+		9116D44926D69F7400451604 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40D26D69F7300451604 /* Icon.png */; };
+		9116D44A26D69F7400451604 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40D26D69F7300451604 /* Icon.png */; };
+		9116D44B26D69F7400451604 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40E26D69F7300451604 /* Style.css */; };
+		9116D44C26D69F7400451604 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40E26D69F7300451604 /* Style.css */; };
+		9116D44D26D69F7400451604 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40F26D69F7300451604 /* Script.js */; };
+		9116D44E26D69F7400451604 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9116D40F26D69F7300451604 /* Script.js */; };
+		9116D44F26D69F7400451604 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116D41026D69F7300451604 /* ViewController.swift */; };
+		9116D45026D69F7400451604 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116D41026D69F7300451604 /* ViewController.swift */; };
+		9116D45126D69F7400451604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9116D41126D69F7400451604 /* Assets.xcassets */; };
+		9116D45226D69F7400451604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9116D41126D69F7400451604 /* Assets.xcassets */; };
+		9116D45326D69F7400451604 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116D41326D69F7400451604 /* SafariWebExtensionHandler.swift */; };
+		9116D45426D69F7400451604 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9116D41326D69F7400451604 /* SafariWebExtensionHandler.swift */; };
+		9116D46E26D69F7400451604 /* video in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46626D69F7400451604 /* video */; };
+		9116D46F26D69F7400451604 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46726D69F7400451604 /* favicon.ico */; };
+		9116D47026D69F7400451604 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46826D69F7400451604 /* js */; };
+		9116D47126D69F7400451604 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46926D69F7400451604 /* img */; };
+		9116D47226D69F7400451604 /* site.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46A26D69F7400451604 /* site.webmanifest */; };
+		9116D47326D69F7400451604 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46B26D69F7400451604 /* manifest.json */; };
+		9116D47426D69F7400451604 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46C26D69F7400451604 /* fonts */; };
+		9116D47526D69F7400451604 /* browserconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46D26D69F7400451604 /* browserconfig.xml */; };
+		9116D47626D69F7400451604 /* video in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46626D69F7400451604 /* video */; };
+		9116D47726D69F7400451604 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46726D69F7400451604 /* favicon.ico */; };
+		9116D47826D69F7400451604 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46826D69F7400451604 /* js */; };
+		9116D47926D69F7400451604 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46926D69F7400451604 /* img */; };
+		9116D47A26D69F7400451604 /* site.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46A26D69F7400451604 /* site.webmanifest */; };
+		9116D47B26D69F7400451604 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46B26D69F7400451604 /* manifest.json */; };
+		9116D47C26D69F7400451604 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46C26D69F7400451604 /* fonts */; };
+		9116D47D26D69F7400451604 /* browserconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9116D46D26D69F7400451604 /* browserconfig.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9128882226D69A8E00D64970 /* PBXContainerItemProxy */ = {
+		9116D43926D69F7400451604 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 912887EE26D69A8D00D64970 /* Project object */;
+			containerPortal = 9116D40526D69F7300451604 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9128881F26D69A8E00D64970;
+			remoteGlobalIDString = 9116D43626D69F7400451604;
 			remoteInfo = "DisMoi Extension (iOS)";
 		};
-		9128882C26D69A8E00D64970 /* PBXContainerItemProxy */ = {
+		9116D44326D69F7400451604 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 912887EE26D69A8D00D64970 /* Project object */;
+			containerPortal = 9116D40526D69F7300451604 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9128882926D69A8E00D64970;
+			remoteGlobalIDString = 9116D44026D69F7400451604;
 			remoteInfo = "DisMoi Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9128884326D69A8E00D64970 /* Embed App Extensions */ = {
+		9116D45A26D69F7400451604 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9128882126D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */,
+				9116D43826D69F7400451604 /* DisMoi Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128884A26D69A8E00D64970 /* Embed App Extensions */ = {
+		9116D46126D69F7400451604 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9128882B26D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */,
+				9116D44226D69F7400451604 /* DisMoi Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,62 +90,61 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		912887F526D69A8D00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		912887F626D69A8D00D64970 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		912887F726D69A8D00D64970 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		912887F826D69A8D00D64970 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		912887F926D69A8D00D64970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		912887FA26D69A8E00D64970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		9128880126D69A8E00D64970 /* DisMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9128880426D69A8E00D64970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9128880626D69A8E00D64970 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9128880926D69A8E00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9128880C26D69A8E00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9128880E26D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9128881326D69A8E00D64970 /* DisMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9128881526D69A8E00D64970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9128881826D69A8E00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9128881A26D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9128881B26D69A8E00D64970 /* DisMoi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DisMoi.entitlements; sourceTree = "<group>"; };
-		9128882026D69A8E00D64970 /* DisMoi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DisMoi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9128882526D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9128882A26D69A8E00D64970 /* DisMoi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DisMoi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9128882F26D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9128884F26D69A8E00D64970 /* video */ = {isa = PBXFileReference; lastKnownFileType = folder; name = video; path = Resources/video; sourceTree = "<group>"; };
-		9128885026D69A8E00D64970 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = Resources/favicon.ico; sourceTree = "<group>"; };
-		9128885126D69A8E00D64970 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = Resources/js; sourceTree = "<group>"; };
-		9128885226D69A8E00D64970 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Resources/img; sourceTree = "<group>"; };
-		9128885326D69A8E00D64970 /* site.webmanifest */ = {isa = PBXFileReference; lastKnownFileType = text; name = site.webmanifest; path = Resources/site.webmanifest; sourceTree = "<group>"; };
-		9128885426D69A8E00D64970 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
-		9128885526D69A8E00D64970 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = Resources/background.html; sourceTree = "<group>"; };
-		9128885626D69A8E00D64970 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = Resources/fonts; sourceTree = "<group>"; };
-		9128885726D69A8E00D64970 /* browserconfig.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = browserconfig.xml; path = Resources/browserconfig.xml; sourceTree = "<group>"; };
+		9116D40C26D69F7300451604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9116D40D26D69F7300451604 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9116D40E26D69F7300451604 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9116D40F26D69F7300451604 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		9116D41026D69F7300451604 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9116D41126D69F7400451604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9116D41326D69F7400451604 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9116D41826D69F7400451604 /* DisMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9116D41B26D69F7400451604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9116D41D26D69F7400451604 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9116D42026D69F7400451604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9116D42326D69F7400451604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9116D42526D69F7400451604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9116D42A26D69F7400451604 /* DisMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9116D42C26D69F7400451604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9116D42F26D69F7400451604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9116D43126D69F7400451604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9116D43226D69F7400451604 /* DisMoi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DisMoi.entitlements; sourceTree = "<group>"; };
+		9116D43726D69F7400451604 /* DisMoi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DisMoi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9116D43C26D69F7400451604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9116D44126D69F7400451604 /* DisMoi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DisMoi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9116D44626D69F7400451604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9116D46626D69F7400451604 /* video */ = {isa = PBXFileReference; lastKnownFileType = folder; name = video; path = Resources/video; sourceTree = "<group>"; };
+		9116D46726D69F7400451604 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = Resources/favicon.ico; sourceTree = "<group>"; };
+		9116D46826D69F7400451604 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = Resources/js; sourceTree = "<group>"; };
+		9116D46926D69F7400451604 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Resources/img; sourceTree = "<group>"; };
+		9116D46A26D69F7400451604 /* site.webmanifest */ = {isa = PBXFileReference; lastKnownFileType = text; name = site.webmanifest; path = Resources/site.webmanifest; sourceTree = "<group>"; };
+		9116D46B26D69F7400451604 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		9116D46C26D69F7400451604 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = Resources/fonts; sourceTree = "<group>"; };
+		9116D46D26D69F7400451604 /* browserconfig.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = browserconfig.xml; path = Resources/browserconfig.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		912887FE26D69A8E00D64970 /* Frameworks */ = {
+		9116D41526D69F7400451604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128881026D69A8E00D64970 /* Frameworks */ = {
+		9116D42726D69F7400451604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128881D26D69A8E00D64970 /* Frameworks */ = {
+		9116D43426D69F7400451604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128882726D69A8E00D64970 /* Frameworks */ = {
+		9116D43E26D69F7400451604 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,111 +154,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		912887ED26D69A8D00D64970 = {
+		9116D40426D69F7300451604 = {
 			isa = PBXGroup;
 			children = (
-				912887F226D69A8D00D64970 /* Shared (App) */,
-				912887FB26D69A8E00D64970 /* Shared (Extension) */,
-				9128880326D69A8E00D64970 /* iOS (App) */,
-				9128881426D69A8E00D64970 /* macOS (App) */,
-				9128882426D69A8E00D64970 /* iOS (Extension) */,
-				9128882E26D69A8E00D64970 /* macOS (Extension) */,
-				9128880226D69A8E00D64970 /* Products */,
+				9116D40926D69F7300451604 /* Shared (App) */,
+				9116D41226D69F7400451604 /* Shared (Extension) */,
+				9116D41A26D69F7400451604 /* iOS (App) */,
+				9116D42B26D69F7400451604 /* macOS (App) */,
+				9116D43B26D69F7400451604 /* iOS (Extension) */,
+				9116D44526D69F7400451604 /* macOS (Extension) */,
+				9116D41926D69F7400451604 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		912887F226D69A8D00D64970 /* Shared (App) */ = {
+		9116D40926D69F7300451604 /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				912887F926D69A8D00D64970 /* ViewController.swift */,
-				912887FA26D69A8E00D64970 /* Assets.xcassets */,
-				912887F326D69A8D00D64970 /* Resources */,
+				9116D41026D69F7300451604 /* ViewController.swift */,
+				9116D41126D69F7400451604 /* Assets.xcassets */,
+				9116D40A26D69F7300451604 /* Resources */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		912887F326D69A8D00D64970 /* Resources */ = {
+		9116D40A26D69F7300451604 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				912887F426D69A8D00D64970 /* Main.html */,
-				912887F626D69A8D00D64970 /* Icon.png */,
-				912887F726D69A8D00D64970 /* Style.css */,
-				912887F826D69A8D00D64970 /* Script.js */,
+				9116D40B26D69F7300451604 /* Main.html */,
+				9116D40D26D69F7300451604 /* Icon.png */,
+				9116D40E26D69F7300451604 /* Style.css */,
+				9116D40F26D69F7300451604 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		912887FB26D69A8E00D64970 /* Shared (Extension) */ = {
+		9116D41226D69F7400451604 /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				9128884E26D69A8E00D64970 /* Resources */,
-				912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */,
+				9116D46526D69F7400451604 /* Resources */,
+				9116D41326D69F7400451604 /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		9128880226D69A8E00D64970 /* Products */ = {
+		9116D41926D69F7400451604 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9128880126D69A8E00D64970 /* DisMoi.app */,
-				9128881326D69A8E00D64970 /* DisMoi.app */,
-				9128882026D69A8E00D64970 /* DisMoi Extension.appex */,
-				9128882A26D69A8E00D64970 /* DisMoi Extension.appex */,
+				9116D41826D69F7400451604 /* DisMoi.app */,
+				9116D42A26D69F7400451604 /* DisMoi.app */,
+				9116D43726D69F7400451604 /* DisMoi Extension.appex */,
+				9116D44126D69F7400451604 /* DisMoi Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9128880326D69A8E00D64970 /* iOS (App) */ = {
+		9116D41A26D69F7400451604 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				9128880426D69A8E00D64970 /* AppDelegate.swift */,
-				9128880626D69A8E00D64970 /* SceneDelegate.swift */,
-				9128880826D69A8E00D64970 /* LaunchScreen.storyboard */,
-				9128880B26D69A8E00D64970 /* Main.storyboard */,
-				9128880E26D69A8E00D64970 /* Info.plist */,
+				9116D41B26D69F7400451604 /* AppDelegate.swift */,
+				9116D41D26D69F7400451604 /* SceneDelegate.swift */,
+				9116D41F26D69F7400451604 /* LaunchScreen.storyboard */,
+				9116D42226D69F7400451604 /* Main.storyboard */,
+				9116D42526D69F7400451604 /* Info.plist */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		9128881426D69A8E00D64970 /* macOS (App) */ = {
+		9116D42B26D69F7400451604 /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				9128881526D69A8E00D64970 /* AppDelegate.swift */,
-				9128881726D69A8E00D64970 /* Main.storyboard */,
-				9128881A26D69A8E00D64970 /* Info.plist */,
-				9128881B26D69A8E00D64970 /* DisMoi.entitlements */,
+				9116D42C26D69F7400451604 /* AppDelegate.swift */,
+				9116D42E26D69F7400451604 /* Main.storyboard */,
+				9116D43126D69F7400451604 /* Info.plist */,
+				9116D43226D69F7400451604 /* DisMoi.entitlements */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
-		9128882426D69A8E00D64970 /* iOS (Extension) */ = {
+		9116D43B26D69F7400451604 /* iOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				9128882526D69A8E00D64970 /* Info.plist */,
+				9116D43C26D69F7400451604 /* Info.plist */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
-		9128882E26D69A8E00D64970 /* macOS (Extension) */ = {
+		9116D44526D69F7400451604 /* macOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				9128882F26D69A8E00D64970 /* Info.plist */,
+				9116D44626D69F7400451604 /* Info.plist */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
-		9128884E26D69A8E00D64970 /* Resources */ = {
+		9116D46526D69F7400451604 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9128884F26D69A8E00D64970 /* video */,
-				9128885026D69A8E00D64970 /* favicon.ico */,
-				9128885126D69A8E00D64970 /* js */,
-				9128885226D69A8E00D64970 /* img */,
-				9128885326D69A8E00D64970 /* site.webmanifest */,
-				9128885426D69A8E00D64970 /* manifest.json */,
-				9128885526D69A8E00D64970 /* background.html */,
-				9128885626D69A8E00D64970 /* fonts */,
-				9128885726D69A8E00D64970 /* browserconfig.xml */,
+				9116D46626D69F7400451604 /* video */,
+				9116D46726D69F7400451604 /* favicon.ico */,
+				9116D46826D69F7400451604 /* js */,
+				9116D46926D69F7400451604 /* img */,
+				9116D46A26D69F7400451604 /* site.webmanifest */,
+				9116D46B26D69F7400451604 /* manifest.json */,
+				9116D46C26D69F7400451604 /* fonts */,
+				9116D46D26D69F7400451604 /* browserconfig.xml */,
 			);
 			name = Resources;
 			path = "Shared (Extension)";
@@ -270,51 +266,51 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9128880026D69A8E00D64970 /* DisMoi (iOS) */ = {
+		9116D41726D69F7400451604 /* DisMoi (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9128884426D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (iOS)" */;
+			buildConfigurationList = 9116D45B26D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi (iOS)" */;
 			buildPhases = (
-				912887FD26D69A8E00D64970 /* Sources */,
-				912887FE26D69A8E00D64970 /* Frameworks */,
-				912887FF26D69A8E00D64970 /* Resources */,
-				9128884326D69A8E00D64970 /* Embed App Extensions */,
+				9116D41426D69F7400451604 /* Sources */,
+				9116D41526D69F7400451604 /* Frameworks */,
+				9116D41626D69F7400451604 /* Resources */,
+				9116D45A26D69F7400451604 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9128882326D69A8E00D64970 /* PBXTargetDependency */,
+				9116D43A26D69F7400451604 /* PBXTargetDependency */,
 			);
 			name = "DisMoi (iOS)";
 			productName = "DisMoi (iOS)";
-			productReference = 9128880126D69A8E00D64970 /* DisMoi.app */;
+			productReference = 9116D41826D69F7400451604 /* DisMoi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9128881226D69A8E00D64970 /* DisMoi (macOS) */ = {
+		9116D42926D69F7400451604 /* DisMoi (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9128884B26D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (macOS)" */;
+			buildConfigurationList = 9116D46226D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi (macOS)" */;
 			buildPhases = (
-				9128880F26D69A8E00D64970 /* Sources */,
-				9128881026D69A8E00D64970 /* Frameworks */,
-				9128881126D69A8E00D64970 /* Resources */,
-				9128884A26D69A8E00D64970 /* Embed App Extensions */,
+				9116D42626D69F7400451604 /* Sources */,
+				9116D42726D69F7400451604 /* Frameworks */,
+				9116D42826D69F7400451604 /* Resources */,
+				9116D46126D69F7400451604 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9128882D26D69A8E00D64970 /* PBXTargetDependency */,
+				9116D44426D69F7400451604 /* PBXTargetDependency */,
 			);
 			name = "DisMoi (macOS)";
 			productName = "DisMoi (macOS)";
-			productReference = 9128881326D69A8E00D64970 /* DisMoi.app */;
+			productReference = 9116D42A26D69F7400451604 /* DisMoi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9128881F26D69A8E00D64970 /* DisMoi Extension (iOS) */ = {
+		9116D43626D69F7400451604 /* DisMoi Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9128884026D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (iOS)" */;
+			buildConfigurationList = 9116D45726D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi Extension (iOS)" */;
 			buildPhases = (
-				9128881C26D69A8E00D64970 /* Sources */,
-				9128881D26D69A8E00D64970 /* Frameworks */,
-				9128881E26D69A8E00D64970 /* Resources */,
+				9116D43326D69F7400451604 /* Sources */,
+				9116D43426D69F7400451604 /* Frameworks */,
+				9116D43526D69F7400451604 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -322,16 +318,16 @@
 			);
 			name = "DisMoi Extension (iOS)";
 			productName = "DisMoi Extension (iOS)";
-			productReference = 9128882026D69A8E00D64970 /* DisMoi Extension.appex */;
+			productReference = 9116D43726D69F7400451604 /* DisMoi Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		9128882926D69A8E00D64970 /* DisMoi Extension (macOS) */ = {
+		9116D44026D69F7400451604 /* DisMoi Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9128884726D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (macOS)" */;
+			buildConfigurationList = 9116D45E26D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi Extension (macOS)" */;
 			buildPhases = (
-				9128882626D69A8E00D64970 /* Sources */,
-				9128882726D69A8E00D64970 /* Frameworks */,
-				9128882826D69A8E00D64970 /* Resources */,
+				9116D43D26D69F7400451604 /* Sources */,
+				9116D43E26D69F7400451604 /* Frameworks */,
+				9116D43F26D69F7400451604 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,34 +335,34 @@
 			);
 			name = "DisMoi Extension (macOS)";
 			productName = "DisMoi Extension (macOS)";
-			productReference = 9128882A26D69A8E00D64970 /* DisMoi Extension.appex */;
+			productReference = 9116D44126D69F7400451604 /* DisMoi Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		912887EE26D69A8D00D64970 /* Project object */ = {
+		9116D40526D69F7300451604 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					9128880026D69A8E00D64970 = {
+					9116D41726D69F7400451604 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					9128881226D69A8E00D64970 = {
+					9116D42926D69F7400451604 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					9128881F26D69A8E00D64970 = {
+					9116D43626D69F7400451604 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					9128882926D69A8E00D64970 = {
+					9116D44026D69F7400451604 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = 912887F126D69A8D00D64970 /* Build configuration list for PBXProject "DisMoi" */;
+			buildConfigurationList = 9116D40826D69F7300451604 /* Build configuration list for PBXProject "DisMoi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -374,161 +370,159 @@
 				en,
 				Base,
 			);
-			mainGroup = 912887ED26D69A8D00D64970;
-			productRefGroup = 9128880226D69A8E00D64970 /* Products */;
+			mainGroup = 9116D40426D69F7300451604;
+			productRefGroup = 9116D41926D69F7400451604 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9128880026D69A8E00D64970 /* DisMoi (iOS) */,
-				9128881226D69A8E00D64970 /* DisMoi (macOS) */,
-				9128881F26D69A8E00D64970 /* DisMoi Extension (iOS) */,
-				9128882926D69A8E00D64970 /* DisMoi Extension (macOS) */,
+				9116D41726D69F7400451604 /* DisMoi (iOS) */,
+				9116D42926D69F7400451604 /* DisMoi (macOS) */,
+				9116D43626D69F7400451604 /* DisMoi Extension (iOS) */,
+				9116D44026D69F7400451604 /* DisMoi Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		912887FF26D69A8E00D64970 /* Resources */ = {
+		9116D41626D69F7400451604 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128883226D69A8E00D64970 /* Icon.png in Resources */,
-				9128880A26D69A8E00D64970 /* LaunchScreen.storyboard in Resources */,
-				9128883026D69A8E00D64970 /* Main.html in Resources */,
-				9128883626D69A8E00D64970 /* Script.js in Resources */,
-				9128883A26D69A8E00D64970 /* Assets.xcassets in Resources */,
-				9128880D26D69A8E00D64970 /* Main.storyboard in Resources */,
-				9128883426D69A8E00D64970 /* Style.css in Resources */,
+				9116D44926D69F7400451604 /* Icon.png in Resources */,
+				9116D42126D69F7400451604 /* LaunchScreen.storyboard in Resources */,
+				9116D44726D69F7400451604 /* Main.html in Resources */,
+				9116D44D26D69F7400451604 /* Script.js in Resources */,
+				9116D45126D69F7400451604 /* Assets.xcassets in Resources */,
+				9116D42426D69F7400451604 /* Main.storyboard in Resources */,
+				9116D44B26D69F7400451604 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128881126D69A8E00D64970 /* Resources */ = {
+		9116D42826D69F7400451604 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128883326D69A8E00D64970 /* Icon.png in Resources */,
-				9128883526D69A8E00D64970 /* Style.css in Resources */,
-				9128881926D69A8E00D64970 /* Main.storyboard in Resources */,
-				9128883726D69A8E00D64970 /* Script.js in Resources */,
-				9128883B26D69A8E00D64970 /* Assets.xcassets in Resources */,
-				9128883126D69A8E00D64970 /* Main.html in Resources */,
+				9116D44A26D69F7400451604 /* Icon.png in Resources */,
+				9116D44C26D69F7400451604 /* Style.css in Resources */,
+				9116D43026D69F7400451604 /* Main.storyboard in Resources */,
+				9116D44E26D69F7400451604 /* Script.js in Resources */,
+				9116D45226D69F7400451604 /* Assets.xcassets in Resources */,
+				9116D44826D69F7400451604 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128881E26D69A8E00D64970 /* Resources */ = {
+		9116D43526D69F7400451604 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128886726D69A8E00D64970 /* background.html in Resources */,
-				9128886926D69A8E00D64970 /* browserconfig.xml in Resources */,
-				9128886426D69A8E00D64970 /* img in Resources */,
-				9128886226D69A8E00D64970 /* favicon.ico in Resources */,
-				9128886326D69A8E00D64970 /* js in Resources */,
-				9128886526D69A8E00D64970 /* site.webmanifest in Resources */,
-				9128886626D69A8E00D64970 /* manifest.json in Resources */,
-				9128886126D69A8E00D64970 /* video in Resources */,
-				9128886826D69A8E00D64970 /* fonts in Resources */,
+				9116D47926D69F7400451604 /* img in Resources */,
+				9116D47726D69F7400451604 /* favicon.ico in Resources */,
+				9116D47D26D69F7400451604 /* browserconfig.xml in Resources */,
+				9116D47826D69F7400451604 /* js in Resources */,
+				9116D47C26D69F7400451604 /* fonts in Resources */,
+				9116D47A26D69F7400451604 /* site.webmanifest in Resources */,
+				9116D47B26D69F7400451604 /* manifest.json in Resources */,
+				9116D47626D69F7400451604 /* video in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128882826D69A8E00D64970 /* Resources */ = {
+		9116D43F26D69F7400451604 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128885E26D69A8E00D64970 /* background.html in Resources */,
-				9128886026D69A8E00D64970 /* browserconfig.xml in Resources */,
-				9128885B26D69A8E00D64970 /* img in Resources */,
-				9128885926D69A8E00D64970 /* favicon.ico in Resources */,
-				9128885A26D69A8E00D64970 /* js in Resources */,
-				9128885C26D69A8E00D64970 /* site.webmanifest in Resources */,
-				9128885D26D69A8E00D64970 /* manifest.json in Resources */,
-				9128885826D69A8E00D64970 /* video in Resources */,
-				9128885F26D69A8E00D64970 /* fonts in Resources */,
+				9116D47126D69F7400451604 /* img in Resources */,
+				9116D46F26D69F7400451604 /* favicon.ico in Resources */,
+				9116D47526D69F7400451604 /* browserconfig.xml in Resources */,
+				9116D47026D69F7400451604 /* js in Resources */,
+				9116D47426D69F7400451604 /* fonts in Resources */,
+				9116D47226D69F7400451604 /* site.webmanifest in Resources */,
+				9116D47326D69F7400451604 /* manifest.json in Resources */,
+				9116D46E26D69F7400451604 /* video in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		912887FD26D69A8E00D64970 /* Sources */ = {
+		9116D41426D69F7400451604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128883826D69A8E00D64970 /* ViewController.swift in Sources */,
-				9128880526D69A8E00D64970 /* AppDelegate.swift in Sources */,
-				9128880726D69A8E00D64970 /* SceneDelegate.swift in Sources */,
+				9116D44F26D69F7400451604 /* ViewController.swift in Sources */,
+				9116D41C26D69F7400451604 /* AppDelegate.swift in Sources */,
+				9116D41E26D69F7400451604 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128880F26D69A8E00D64970 /* Sources */ = {
+		9116D42626D69F7400451604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128883926D69A8E00D64970 /* ViewController.swift in Sources */,
-				9128881626D69A8E00D64970 /* AppDelegate.swift in Sources */,
+				9116D45026D69F7400451604 /* ViewController.swift in Sources */,
+				9116D42D26D69F7400451604 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128881C26D69A8E00D64970 /* Sources */ = {
+		9116D43326D69F7400451604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128883C26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */,
+				9116D45326D69F7400451604 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9128882626D69A8E00D64970 /* Sources */ = {
+		9116D43D26D69F7400451604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9128883D26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */,
+				9116D45426D69F7400451604 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9128882326D69A8E00D64970 /* PBXTargetDependency */ = {
+		9116D43A26D69F7400451604 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9128881F26D69A8E00D64970 /* DisMoi Extension (iOS) */;
-			targetProxy = 9128882226D69A8E00D64970 /* PBXContainerItemProxy */;
+			target = 9116D43626D69F7400451604 /* DisMoi Extension (iOS) */;
+			targetProxy = 9116D43926D69F7400451604 /* PBXContainerItemProxy */;
 		};
-		9128882D26D69A8E00D64970 /* PBXTargetDependency */ = {
+		9116D44426D69F7400451604 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9128882926D69A8E00D64970 /* DisMoi Extension (macOS) */;
-			targetProxy = 9128882C26D69A8E00D64970 /* PBXContainerItemProxy */;
+			target = 9116D44026D69F7400451604 /* DisMoi Extension (macOS) */;
+			targetProxy = 9116D44326D69F7400451604 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		912887F426D69A8D00D64970 /* Main.html */ = {
+		9116D40B26D69F7300451604 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				912887F526D69A8D00D64970 /* Base */,
+				9116D40C26D69F7300451604 /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		9128880826D69A8E00D64970 /* LaunchScreen.storyboard */ = {
+		9116D41F26D69F7400451604 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9128880926D69A8E00D64970 /* Base */,
+				9116D42026D69F7400451604 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		9128880B26D69A8E00D64970 /* Main.storyboard */ = {
+		9116D42226D69F7400451604 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9128880C26D69A8E00D64970 /* Base */,
+				9116D42326D69F7400451604 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9128881726D69A8E00D64970 /* Main.storyboard */ = {
+		9116D42E26D69F7400451604 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9128881826D69A8E00D64970 /* Base */,
+				9116D42F26D69F7400451604 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -536,7 +530,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9128883E26D69A8E00D64970 /* Debug */ = {
+		9116D45526D69F7400451604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,7 +589,7 @@
 			};
 			name = Debug;
 		};
-		9128883F26D69A8E00D64970 /* Release */ = {
+		9116D45626D69F7400451604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -647,7 +641,7 @@
 			};
 			name = Release;
 		};
-		9128884126D69A8E00D64970 /* Debug */ = {
+		9116D45826D69F7400451604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -677,7 +671,7 @@
 			};
 			name = Debug;
 		};
-		9128884226D69A8E00D64970 /* Release */ = {
+		9116D45926D69F7400451604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -708,7 +702,7 @@
 			};
 			name = Release;
 		};
-		9128884526D69A8E00D64970 /* Debug */ = {
+		9116D45C26D69F7400451604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -745,7 +739,7 @@
 			};
 			name = Debug;
 		};
-		9128884626D69A8E00D64970 /* Release */ = {
+		9116D45D26D69F7400451604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -783,7 +777,7 @@
 			};
 			name = Release;
 		};
-		9128884826D69A8E00D64970 /* Debug */ = {
+		9116D45F26D69F7400451604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -815,7 +809,7 @@
 			};
 			name = Debug;
 		};
-		9128884926D69A8E00D64970 /* Release */ = {
+		9116D46026D69F7400451604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -847,7 +841,7 @@
 			};
 			name = Release;
 		};
-		9128884C26D69A8E00D64970 /* Debug */ = {
+		9116D46326D69F7400451604 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -884,7 +878,7 @@
 			};
 			name = Debug;
 		};
-		9128884D26D69A8E00D64970 /* Release */ = {
+		9116D46426D69F7400451604 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -924,52 +918,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		912887F126D69A8D00D64970 /* Build configuration list for PBXProject "DisMoi" */ = {
+		9116D40826D69F7300451604 /* Build configuration list for PBXProject "DisMoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9128883E26D69A8E00D64970 /* Debug */,
-				9128883F26D69A8E00D64970 /* Release */,
+				9116D45526D69F7400451604 /* Debug */,
+				9116D45626D69F7400451604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9128884026D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (iOS)" */ = {
+		9116D45726D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9128884126D69A8E00D64970 /* Debug */,
-				9128884226D69A8E00D64970 /* Release */,
+				9116D45826D69F7400451604 /* Debug */,
+				9116D45926D69F7400451604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9128884426D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (iOS)" */ = {
+		9116D45B26D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9128884526D69A8E00D64970 /* Debug */,
-				9128884626D69A8E00D64970 /* Release */,
+				9116D45C26D69F7400451604 /* Debug */,
+				9116D45D26D69F7400451604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9128884726D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (macOS)" */ = {
+		9116D45E26D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9128884826D69A8E00D64970 /* Debug */,
-				9128884926D69A8E00D64970 /* Release */,
+				9116D45F26D69F7400451604 /* Debug */,
+				9116D46026D69F7400451604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9128884B26D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (macOS)" */ = {
+		9116D46226D69F7400451604 /* Build configuration list for PBXNativeTarget "DisMoi (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9128884C26D69A8E00D64970 /* Debug */,
-				9128884D26D69A8E00D64970 /* Release */,
+				9116D46326D69F7400451604 /* Debug */,
+				9116D46426D69F7400451604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 912887EE26D69A8D00D64970 /* Project object */;
+	rootObject = 9116D40526D69F7300451604 /* Project object */;
 }
