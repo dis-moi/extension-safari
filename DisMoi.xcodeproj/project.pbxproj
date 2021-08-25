@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9128880526D69A8E00D64970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9128880426D69A8E00D64970 /* AppDelegate.swift */; };
+		9128880726D69A8E00D64970 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9128880626D69A8E00D64970 /* SceneDelegate.swift */; };
+		9128880A26D69A8E00D64970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9128880826D69A8E00D64970 /* LaunchScreen.storyboard */; };
+		9128880D26D69A8E00D64970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9128880B26D69A8E00D64970 /* Main.storyboard */; };
+		9128881626D69A8E00D64970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9128881526D69A8E00D64970 /* AppDelegate.swift */; };
+		9128881926D69A8E00D64970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9128881726D69A8E00D64970 /* Main.storyboard */; };
+		9128882126D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9128882026D69A8E00D64970 /* DisMoi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9128882B26D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9128882A26D69A8E00D64970 /* DisMoi Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9128883026D69A8E00D64970 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 912887F426D69A8D00D64970 /* Main.html */; };
+		9128883126D69A8E00D64970 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 912887F426D69A8D00D64970 /* Main.html */; };
+		9128883226D69A8E00D64970 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 912887F626D69A8D00D64970 /* Icon.png */; };
+		9128883326D69A8E00D64970 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 912887F626D69A8D00D64970 /* Icon.png */; };
+		9128883426D69A8E00D64970 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 912887F726D69A8D00D64970 /* Style.css */; };
+		9128883526D69A8E00D64970 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 912887F726D69A8D00D64970 /* Style.css */; };
+		9128883626D69A8E00D64970 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 912887F826D69A8D00D64970 /* Script.js */; };
+		9128883726D69A8E00D64970 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 912887F826D69A8D00D64970 /* Script.js */; };
+		9128883826D69A8E00D64970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887F926D69A8D00D64970 /* ViewController.swift */; };
+		9128883926D69A8E00D64970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887F926D69A8D00D64970 /* ViewController.swift */; };
+		9128883A26D69A8E00D64970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912887FA26D69A8E00D64970 /* Assets.xcassets */; };
+		9128883B26D69A8E00D64970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912887FA26D69A8E00D64970 /* Assets.xcassets */; };
+		9128883C26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */; };
+		9128883D26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */; };
+		9128885826D69A8E00D64970 /* video in Resources */ = {isa = PBXBuildFile; fileRef = 9128884F26D69A8E00D64970 /* video */; };
+		9128885926D69A8E00D64970 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9128885026D69A8E00D64970 /* favicon.ico */; };
+		9128885A26D69A8E00D64970 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 9128885126D69A8E00D64970 /* js */; };
+		9128885B26D69A8E00D64970 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9128885226D69A8E00D64970 /* img */; };
+		9128885C26D69A8E00D64970 /* site.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 9128885326D69A8E00D64970 /* site.webmanifest */; };
+		9128885D26D69A8E00D64970 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9128885426D69A8E00D64970 /* manifest.json */; };
+		9128885E26D69A8E00D64970 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 9128885526D69A8E00D64970 /* background.html */; };
+		9128885F26D69A8E00D64970 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9128885626D69A8E00D64970 /* fonts */; };
+		9128886026D69A8E00D64970 /* browserconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9128885726D69A8E00D64970 /* browserconfig.xml */; };
+		9128886126D69A8E00D64970 /* video in Resources */ = {isa = PBXBuildFile; fileRef = 9128884F26D69A8E00D64970 /* video */; };
+		9128886226D69A8E00D64970 /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 9128885026D69A8E00D64970 /* favicon.ico */; };
+		9128886326D69A8E00D64970 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 9128885126D69A8E00D64970 /* js */; };
+		9128886426D69A8E00D64970 /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9128885226D69A8E00D64970 /* img */; };
+		9128886526D69A8E00D64970 /* site.webmanifest in Resources */ = {isa = PBXBuildFile; fileRef = 9128885326D69A8E00D64970 /* site.webmanifest */; };
+		9128886626D69A8E00D64970 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9128885426D69A8E00D64970 /* manifest.json */; };
+		9128886726D69A8E00D64970 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 9128885526D69A8E00D64970 /* background.html */; };
+		9128886826D69A8E00D64970 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9128885626D69A8E00D64970 /* fonts */; };
+		9128886926D69A8E00D64970 /* browserconfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 9128885726D69A8E00D64970 /* browserconfig.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9128882226D69A8E00D64970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912887EE26D69A8D00D64970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9128881F26D69A8E00D64970;
+			remoteInfo = "DisMoi Extension (iOS)";
+		};
+		9128882C26D69A8E00D64970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912887EE26D69A8D00D64970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9128882926D69A8E00D64970;
+			remoteInfo = "DisMoi Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9128884326D69A8E00D64970 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9128882126D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128884A26D69A8E00D64970 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9128882B26D69A8E00D64970 /* DisMoi Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		912887F526D69A8D00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		912887F626D69A8D00D64970 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		912887F726D69A8D00D64970 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		912887F826D69A8D00D64970 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		912887F926D69A8D00D64970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		912887FA26D69A8E00D64970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9128880126D69A8E00D64970 /* DisMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9128880426D69A8E00D64970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9128880626D69A8E00D64970 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9128880926D69A8E00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9128880C26D69A8E00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9128880E26D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9128881326D69A8E00D64970 /* DisMoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisMoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9128881526D69A8E00D64970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9128881826D69A8E00D64970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9128881A26D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9128881B26D69A8E00D64970 /* DisMoi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DisMoi.entitlements; sourceTree = "<group>"; };
+		9128882026D69A8E00D64970 /* DisMoi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DisMoi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9128882526D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9128882A26D69A8E00D64970 /* DisMoi Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DisMoi Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9128882F26D69A8E00D64970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9128884F26D69A8E00D64970 /* video */ = {isa = PBXFileReference; lastKnownFileType = folder; name = video; path = Resources/video; sourceTree = "<group>"; };
+		9128885026D69A8E00D64970 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = favicon.ico; path = Resources/favicon.ico; sourceTree = "<group>"; };
+		9128885126D69A8E00D64970 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = Resources/js; sourceTree = "<group>"; };
+		9128885226D69A8E00D64970 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Resources/img; sourceTree = "<group>"; };
+		9128885326D69A8E00D64970 /* site.webmanifest */ = {isa = PBXFileReference; lastKnownFileType = text; name = site.webmanifest; path = Resources/site.webmanifest; sourceTree = "<group>"; };
+		9128885426D69A8E00D64970 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		9128885526D69A8E00D64970 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = Resources/background.html; sourceTree = "<group>"; };
+		9128885626D69A8E00D64970 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = Resources/fonts; sourceTree = "<group>"; };
+		9128885726D69A8E00D64970 /* browserconfig.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = browserconfig.xml; path = Resources/browserconfig.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		912887FE26D69A8E00D64970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128881026D69A8E00D64970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128881D26D69A8E00D64970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128882726D69A8E00D64970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		912887ED26D69A8D00D64970 = {
+			isa = PBXGroup;
+			children = (
+				912887F226D69A8D00D64970 /* Shared (App) */,
+				912887FB26D69A8E00D64970 /* Shared (Extension) */,
+				9128880326D69A8E00D64970 /* iOS (App) */,
+				9128881426D69A8E00D64970 /* macOS (App) */,
+				9128882426D69A8E00D64970 /* iOS (Extension) */,
+				9128882E26D69A8E00D64970 /* macOS (Extension) */,
+				9128880226D69A8E00D64970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		912887F226D69A8D00D64970 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				912887F926D69A8D00D64970 /* ViewController.swift */,
+				912887FA26D69A8E00D64970 /* Assets.xcassets */,
+				912887F326D69A8D00D64970 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		912887F326D69A8D00D64970 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				912887F426D69A8D00D64970 /* Main.html */,
+				912887F626D69A8D00D64970 /* Icon.png */,
+				912887F726D69A8D00D64970 /* Style.css */,
+				912887F826D69A8D00D64970 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		912887FB26D69A8E00D64970 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9128884E26D69A8E00D64970 /* Resources */,
+				912887FC26D69A8E00D64970 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		9128880226D69A8E00D64970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9128880126D69A8E00D64970 /* DisMoi.app */,
+				9128881326D69A8E00D64970 /* DisMoi.app */,
+				9128882026D69A8E00D64970 /* DisMoi Extension.appex */,
+				9128882A26D69A8E00D64970 /* DisMoi Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9128880326D69A8E00D64970 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9128880426D69A8E00D64970 /* AppDelegate.swift */,
+				9128880626D69A8E00D64970 /* SceneDelegate.swift */,
+				9128880826D69A8E00D64970 /* LaunchScreen.storyboard */,
+				9128880B26D69A8E00D64970 /* Main.storyboard */,
+				9128880E26D69A8E00D64970 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		9128881426D69A8E00D64970 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9128881526D69A8E00D64970 /* AppDelegate.swift */,
+				9128881726D69A8E00D64970 /* Main.storyboard */,
+				9128881A26D69A8E00D64970 /* Info.plist */,
+				9128881B26D69A8E00D64970 /* DisMoi.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		9128882426D69A8E00D64970 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9128882526D69A8E00D64970 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		9128882E26D69A8E00D64970 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9128882F26D69A8E00D64970 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		9128884E26D69A8E00D64970 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9128884F26D69A8E00D64970 /* video */,
+				9128885026D69A8E00D64970 /* favicon.ico */,
+				9128885126D69A8E00D64970 /* js */,
+				9128885226D69A8E00D64970 /* img */,
+				9128885326D69A8E00D64970 /* site.webmanifest */,
+				9128885426D69A8E00D64970 /* manifest.json */,
+				9128885526D69A8E00D64970 /* background.html */,
+				9128885626D69A8E00D64970 /* fonts */,
+				9128885726D69A8E00D64970 /* browserconfig.xml */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9128880026D69A8E00D64970 /* DisMoi (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9128884426D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (iOS)" */;
+			buildPhases = (
+				912887FD26D69A8E00D64970 /* Sources */,
+				912887FE26D69A8E00D64970 /* Frameworks */,
+				912887FF26D69A8E00D64970 /* Resources */,
+				9128884326D69A8E00D64970 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9128882326D69A8E00D64970 /* PBXTargetDependency */,
+			);
+			name = "DisMoi (iOS)";
+			productName = "DisMoi (iOS)";
+			productReference = 9128880126D69A8E00D64970 /* DisMoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9128881226D69A8E00D64970 /* DisMoi (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9128884B26D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (macOS)" */;
+			buildPhases = (
+				9128880F26D69A8E00D64970 /* Sources */,
+				9128881026D69A8E00D64970 /* Frameworks */,
+				9128881126D69A8E00D64970 /* Resources */,
+				9128884A26D69A8E00D64970 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9128882D26D69A8E00D64970 /* PBXTargetDependency */,
+			);
+			name = "DisMoi (macOS)";
+			productName = "DisMoi (macOS)";
+			productReference = 9128881326D69A8E00D64970 /* DisMoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9128881F26D69A8E00D64970 /* DisMoi Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9128884026D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (iOS)" */;
+			buildPhases = (
+				9128881C26D69A8E00D64970 /* Sources */,
+				9128881D26D69A8E00D64970 /* Frameworks */,
+				9128881E26D69A8E00D64970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DisMoi Extension (iOS)";
+			productName = "DisMoi Extension (iOS)";
+			productReference = 9128882026D69A8E00D64970 /* DisMoi Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9128882926D69A8E00D64970 /* DisMoi Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9128884726D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (macOS)" */;
+			buildPhases = (
+				9128882626D69A8E00D64970 /* Sources */,
+				9128882726D69A8E00D64970 /* Frameworks */,
+				9128882826D69A8E00D64970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DisMoi Extension (macOS)";
+			productName = "DisMoi Extension (macOS)";
+			productReference = 9128882A26D69A8E00D64970 /* DisMoi Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		912887EE26D69A8D00D64970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9128880026D69A8E00D64970 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9128881226D69A8E00D64970 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9128881F26D69A8E00D64970 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9128882926D69A8E00D64970 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 912887F126D69A8D00D64970 /* Build configuration list for PBXProject "DisMoi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 912887ED26D69A8D00D64970;
+			productRefGroup = 9128880226D69A8E00D64970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9128880026D69A8E00D64970 /* DisMoi (iOS) */,
+				9128881226D69A8E00D64970 /* DisMoi (macOS) */,
+				9128881F26D69A8E00D64970 /* DisMoi Extension (iOS) */,
+				9128882926D69A8E00D64970 /* DisMoi Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		912887FF26D69A8E00D64970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128883226D69A8E00D64970 /* Icon.png in Resources */,
+				9128880A26D69A8E00D64970 /* LaunchScreen.storyboard in Resources */,
+				9128883026D69A8E00D64970 /* Main.html in Resources */,
+				9128883626D69A8E00D64970 /* Script.js in Resources */,
+				9128883A26D69A8E00D64970 /* Assets.xcassets in Resources */,
+				9128880D26D69A8E00D64970 /* Main.storyboard in Resources */,
+				9128883426D69A8E00D64970 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128881126D69A8E00D64970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128883326D69A8E00D64970 /* Icon.png in Resources */,
+				9128883526D69A8E00D64970 /* Style.css in Resources */,
+				9128881926D69A8E00D64970 /* Main.storyboard in Resources */,
+				9128883726D69A8E00D64970 /* Script.js in Resources */,
+				9128883B26D69A8E00D64970 /* Assets.xcassets in Resources */,
+				9128883126D69A8E00D64970 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128881E26D69A8E00D64970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128886726D69A8E00D64970 /* background.html in Resources */,
+				9128886926D69A8E00D64970 /* browserconfig.xml in Resources */,
+				9128886426D69A8E00D64970 /* img in Resources */,
+				9128886226D69A8E00D64970 /* favicon.ico in Resources */,
+				9128886326D69A8E00D64970 /* js in Resources */,
+				9128886526D69A8E00D64970 /* site.webmanifest in Resources */,
+				9128886626D69A8E00D64970 /* manifest.json in Resources */,
+				9128886126D69A8E00D64970 /* video in Resources */,
+				9128886826D69A8E00D64970 /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128882826D69A8E00D64970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128885E26D69A8E00D64970 /* background.html in Resources */,
+				9128886026D69A8E00D64970 /* browserconfig.xml in Resources */,
+				9128885B26D69A8E00D64970 /* img in Resources */,
+				9128885926D69A8E00D64970 /* favicon.ico in Resources */,
+				9128885A26D69A8E00D64970 /* js in Resources */,
+				9128885C26D69A8E00D64970 /* site.webmanifest in Resources */,
+				9128885D26D69A8E00D64970 /* manifest.json in Resources */,
+				9128885826D69A8E00D64970 /* video in Resources */,
+				9128885F26D69A8E00D64970 /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		912887FD26D69A8E00D64970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128883826D69A8E00D64970 /* ViewController.swift in Sources */,
+				9128880526D69A8E00D64970 /* AppDelegate.swift in Sources */,
+				9128880726D69A8E00D64970 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128880F26D69A8E00D64970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128883926D69A8E00D64970 /* ViewController.swift in Sources */,
+				9128881626D69A8E00D64970 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128881C26D69A8E00D64970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128883C26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9128882626D69A8E00D64970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9128883D26D69A8E00D64970 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9128882326D69A8E00D64970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9128881F26D69A8E00D64970 /* DisMoi Extension (iOS) */;
+			targetProxy = 9128882226D69A8E00D64970 /* PBXContainerItemProxy */;
+		};
+		9128882D26D69A8E00D64970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9128882926D69A8E00D64970 /* DisMoi Extension (macOS) */;
+			targetProxy = 9128882C26D69A8E00D64970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		912887F426D69A8D00D64970 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912887F526D69A8D00D64970 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		9128880826D69A8E00D64970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9128880926D69A8E00D64970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9128880B26D69A8E00D64970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9128880C26D69A8E00D64970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9128881726D69A8E00D64970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9128881826D69A8E00D64970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9128883E26D69A8E00D64970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9128883F26D69A8E00D64970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9128884126D69A8E00D64970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DisMoi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi.Extension;
+				PRODUCT_NAME = "DisMoi Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9128884226D69A8E00D64970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DisMoi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi.Extension;
+				PRODUCT_NAME = "DisMoi Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9128884526D69A8E00D64970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DisMoi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi;
+				PRODUCT_NAME = DisMoi;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9128884626D69A8E00D64970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DisMoi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi;
+				PRODUCT_NAME = DisMoi;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9128884826D69A8E00D64970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DisMoi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi.Extension;
+				PRODUCT_NAME = "DisMoi Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9128884926D69A8E00D64970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DisMoi Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi.Extension;
+				PRODUCT_NAME = "DisMoi Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9128884C26D69A8E00D64970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/DisMoi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DisMoi;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi;
+				PRODUCT_NAME = DisMoi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9128884D26D69A8E00D64970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/DisMoi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = DisMoi;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.dismoi.DisMoi;
+				PRODUCT_NAME = DisMoi;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		912887F126D69A8D00D64970 /* Build configuration list for PBXProject "DisMoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9128883E26D69A8E00D64970 /* Debug */,
+				9128883F26D69A8E00D64970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9128884026D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9128884126D69A8E00D64970 /* Debug */,
+				9128884226D69A8E00D64970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9128884426D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9128884526D69A8E00D64970 /* Debug */,
+				9128884626D69A8E00D64970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9128884726D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9128884826D69A8E00D64970 /* Debug */,
+				9128884926D69A8E00D64970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9128884B26D69A8E00D64970 /* Build configuration list for PBXNativeTarget "DisMoi (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9128884C26D69A8E00D64970 /* Debug */,
+				9128884D26D69A8E00D64970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 912887EE26D69A8D00D64970 /* Project object */;
+}
